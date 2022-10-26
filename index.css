@@ -183,6 +183,7 @@ body {
 .detail {
     border: solid 1px black;
     margin: 1rem;
+    border-radius: 5px;
 }
 
 .information p {
