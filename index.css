@@ -265,3 +265,38 @@ body {
 .information p {
     padding: .2rem;
 }
+
+.transform {
+    /* float: initial; */
+    transform: scale(2);
+}
+
+.example {
+    position: relative;
+    display: inline-block;
+}
+
+.example p {
+    position: absolute;
+    display: inline-block;
+    width: 70vw;
+}
+
+.element .example p {
+    left: -5px;
+}
+
+.div__name .example p {
+    margin-top: .4rem;
+    left: -10px;
+}
+
+.div__weight .example p {
+    margin-top: -.1rem;
+    left: -10px;
+}
+
+.example .index {
+    margin-left: 10px;
+    font-weight: initial;
+}
