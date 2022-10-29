@@ -267,8 +267,12 @@ body {
 }
 
 .transform {
-    /* float: initial; */
     transform: scale(2);
+}
+
+.transform:hover {
+    transform: scale(2);
+    cursor: initial;
 }
 
 .example {
